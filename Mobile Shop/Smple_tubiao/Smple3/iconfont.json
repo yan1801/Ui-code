@@ -1,0 +1,16 @@
+{
+  "id": "2818536",
+  "name": "Login",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "720973",
+      "name": "搜索",
+      "font_class": "xiazai15",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}

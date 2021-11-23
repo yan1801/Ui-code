@@ -1,0 +1,23 @@
+{
+  "id": "2818536",
+  "name": "Login",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "17583245",
+      "name": "大于",
+      "font_class": "dayu",
+      "unicode": "ec97",
+      "unicode_decimal": 60567
+    },
+    {
+      "icon_id": "22380458",
+      "name": "小于",
+      "font_class": "xiaoyu",
+      "unicode": "eda2",
+      "unicode_decimal": 60834
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2818536",
+  "name": "Login",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5030",
+      "name": "购物车满",
+      "font_class": "gouwucheman",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "18145724",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}

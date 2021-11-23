@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Ek Mukta', sans-serif;
+    color: #666;
+    background-color: #fff;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: #333;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+li,
+ul,
+img,
+a,
+div {
+    border: 0;
+    list-style: none;
+}
+
+div {
+    display: block;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+    outline: none;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+header {
+    padding: 30px 0;
+}
+
+
+/* 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+} */
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+    background-color: #eee;
+    border-color: #428bca;
+}
+
+@media(max-width:767px) {
+    #top ul.top-link li {
+        float: none;
+        border: none;
+    }
+}
+
+@media(max-width:968px) {
+    header #cart {
+        float: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #menu .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+@media(max-width:767px) {
+    #menu .navbar-brand {
+        display: block;
+        color: #fff;
+    }
+    #menu {
+        border-radius: 4px;
+    }
+    #menu .dropdown-inner {
+        display: block;
+    }
+    #menu div.dropdown-inner>ul.list-unstyled {
+        display: block;
+    }
+    #menu .dropdown-inner a {
+        width: 100%;
+        color: #fff;
+    }
+    #menu div.dropdown-menu {
+        margin-left: 0 !important;
+        padding-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    #menu .dropdown-menu a:hover,
+    #menu .dropdown-menu ul li a:hover {
+        background: rgba(0, 0, 0, 0.1);
+    }
+}
+
+@media(max-width:767px) {
+    .product {
+        border: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .modal-dialog {
+        width: 500px;
+        padding-top: 90px
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "2831900",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1221894",
+      "name": "房子 实心",
+      "font_class": "solid-home",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    }
+  ]
+}

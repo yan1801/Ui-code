@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./index.css" rel="stylesheet" type="text/css">
+    <link href="./Style.css" rel="stylesheet" type="text/css">
+    <link href="./Smple_tubiao/Smple1/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="./Smple_tubiao/Smple2/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="./Smple_tubiao/Smple3/iconfont.css" rel="stylesheet" type="text/css">
+    <link href="./Smple_tubiao/Smple4/iconfont.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./Smple_tubiao/Smple9/iconfont.css" type="text/css">
+    <link rel="stylesheet" href="./Smple_tubiao/Smple6/iconfont.css" type="text/css">
+    <link rel="stylesheet" href="./Smple_tubiao/Smple8/iconfont.css" type="text/css">
+    <link rel="stylesheet" href="./Smple_tubiao/Smple10/iconfont.css" type="text/css">
+    <link rel="stylesheet" href="./Smple_tubiao/Smple11/iconfont.css" type="text/css">
+    <link rel="stylesheet" href="./Smple_tubiao/Smple12/iconfont.css" type="text/css">
+    <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.min.css" type="text/css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+    <title>移动商城</title>
+</head>
+
+<body>
+    <div style="position: relative;">
+        <!-- 定位 -->
+        <div style="width: 90px; z-index: 999;  border-radius: 25px;; position: fixed;top:300px;left: 1260px;">
+            <div>
+                <img style="width: 80px; height: 80px; cursor: pointer;" src="./Image/333.jpg" alt="">
+            </div>
+            <div>
+                <img style="cursor: pointer; width: 80px;height: 80px;" src="./Image/55.png" alt="">
+            </div>
+        </div>
+        <nav class="top">
+            <div class="container" style="height: 30px;">
+                <div class="top-waper-nav">
+                    <ul class="top-link">
+                        <li><a href="contact.html"><i class="iconfont icon-xinfeng"></i> 联系我们</a></li>
+                        <li class="border-1">
+                            <a href="sign.html"><i class="iconfont icon-renxiang"></i> 登录</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Header-->
+        <header class="container">
+            <div class="row">
+                <div class="con-r-1">
+                    <div id="logo"><img style="max-width: 100%;height: auto;" src="Image/logo.png" /></div>
+                </div>
+                <div class="con-r-1">
+                    <form class="form-search">
+                        <input type="text">
+                        <button type="submit" class="btn"> <i id="icon"  class="iconfont icon-xiazai15"></i></button>
+                    </form>
+                </div>
+                <div class="con-r-1">
+                    <div id="cart">
+                        <a class="btn btn-1" href="cart.html">
+                            <i id="icon" class="iconfont icon-gouwuche"></i> 购物车：0个商品</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--导航-->
+        <nav id="menu" class="navbar">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav ">
+                        <li><a href="index.html">首页</a></li>
+                        <li class="dropdown fater"><a href="computer.html">计算机</a>
+                            <ul class="son">
+                                <li><a class="son-a" href="#">Window</a></li>
+                                <li><a class="son-a" href="#">MacBook</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown fater"><a href="Notebook.html"> 笔记本电脑</a>
+                            <ul class="son">
+                                <li><a class="son-a" href="#">Dell</a></li>
+                                <li><a class="son-a" href="#">Asus</a></li>
+                                <li>
+                                    <a class="son-a" href="#">Samsung</a></li>
+                                <li>
+                                    <a class="son-a" href="#">Lenovo</a></li>
+                                <li>
+                                    <a class="son-a" href="#">Acer</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown fater"><a href="category.html">手机</a>
+                            <ul class="son">
+                                <li><a class="son-a" href="#">Huawei</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="margin-left: 7px;"><a href="category.html">Software</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--轮播-->
+        <div class="home-page">
+            <div class="container">
+                <div class="row home-page-col-row">
+                    <div id="myCarousel" class="carousel slide">
+                        <!-- 轮播（Carousel）指标 -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                            <li data-target="#myCarousel" data-slide-to="6"></li>
+
+                        </ol>
+                        <!-- 轮播（Carousel）项目 -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="./Image/maestro-curved-32px.jpeg" alt="Third slide">
+                            </div>
+                            <div class="item">
+                                <img src="./Image/6.jpeg" alt="Third slide">
+                            </div>
+                            <div class="item">
+                                <img src="./Image/1.jpeg" alt="Third slide">
+                            </div>
+                            <div class="item">
+                                <img src="./Image/4.jpeg" alt="Third slide">
+                            </div>
+                            <div class="item">
+                                <img src="./Image/main-banner1-1903x600.jpg" alt="First slide">
+                            </div>
+                            <div class="item">
+                                <img src="./Image/main-banner2-1903x600.jpg" alt="Second slide">
+                            </div>
+                            <div class="item">
+                                <img src="./Image/main-banner3-1903x600.jpg" alt="Second slide">
+                            </div>
+                        </div>
+                        <!-- 轮播（Carousel）导航 -->
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="heading">
+                            <h2>店长推荐</h2>
+                        </div>
+                        <div class="products">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="product">
+                                    <div class="image">
+                                        <a href="product.html"><img src="./Image/1.0.png" /></a>
+                                    </div>
+                                    <div class="buttons">
+                                        <a class="btn cart" href="#"><i id="icon" class="iconfont icon-gouwucheman"></i>
+                                    </a>
+                                        <a class="btn wishlist" href="#"><i id="icon" class="iconfont icon-aixin"></i>
+                                    </a>
+                                    </div>
+                                    <div class="caption">
+                                        <div class="name">
+                                            <h3>Huawei P 100</h3>
+                                        </div>
+                                        <div class="price">$5555<span>$3333</span></div>
+                                        <div class="rating">
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-star"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="product">
+                                    <div class="image">
+                                        <a href="product.html"><img src="./Image/2.0.png" /></a>
+                                    </div>
+                                    <div class="buttons">
+                                        <a class="btn cart" href="#"><i id="icon" class="iconfont icon-gouwucheman"></i>
+                                    </a>
+                                        <a class="btn wishlist" href="#"><i id="icon" class="iconfont icon-aixin"></i>
+                                    </a>
+                                    </div>
+                                    <div class="caption">
+                                        <div class="name">
+                                            <h3>Huawei P 40</h3>
+                                        </div>
+                                        <div class="price">$2222<span>$222</span></div>
+                                        <div class="rating">
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-star"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="product">
+                                    <div class="image">
+                                        <a href="product.html"><img src="./Image/3.0.png" /></a>
+                                    </div>
+                                    <div class="buttons">
+                                        <a class="btn cart" href="#"><i id="icon" class="iconfont icon-gouwucheman"></i>
+                                    </a>
+                                        <a class="btn wishlist" href="#"><i id="icon" class="iconfont icon-aixin"></i>
+                                    </a>
+                                    </div>
+                                    <div class="caption">
+                                        <div class="name">
+                                            <h3>Huawei 12</h3>
+                                        </div>
+                                        <div class="price">$8888<span>$98</span></div>
+                                        <div class="rating">
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-star"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="product">
+                                    <div class="image">
+                                        <a href="product.html"><img src="./Image/4.0.png" /></a>
+                                    </div>
+                                    <div class="buttons">
+                                        <a class="btn cart" href="#"><i id="icon" class="iconfont icon-gouwucheman"></i>
+                                    </a>
+                                        <a class="btn wishlist" href="#"><i id="icon" class="iconfont icon-aixin"></i>
+                                    </a>
+                                    </div>
+                                    <div class="caption">
+                                        <div class="name">
+                                            <h3>Huawei mete 1000</h3>
+                                        </div>
+                                        <div class="price">$666<span>$66</span></div>
+                                        <div class="rating">
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-shoucang"></span>
+                                            <span id="icon" class="iconfont icon-star"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 分页 -->
+                    <nav style="text-align: center;" aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div class="col-lg-12">
+                        <div style="margin-top: 10px; margin-right: -10px;">
+                            <div class="hot-list" style="right: 7.5px;">
+                                <div class="h-list-1">
+                                    <div style="width: 100%;">
+                                        <div class="h-list-2 h-list-3">
+                                            <div style="text-align: left;">
+                                                <div style="margin-top: 15px;
+                                            height: 33px;
+                                            line-height: 33px;color: rgb(250, 0, 0);">
+                                                    <span style="font-size: 35px;
+                                                padding-left: 0;
+                                                display: inline-block;">热卖排行榜</span></div>
+                                            </div>
+                                            <div style="font-size: 25px;
+                                        font-weight: lighter;color: rgb(52, 54, 57);">
+                                                热卖趋势，为你甄选
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list-1">
+                                        <ul class="list-1-1">
+                                            <li class="list-content">
+                                                <div class="list-content-img">
+                                                    <div class="list-content-img_1"> 1</div>
+                                                    <img src="https://img20.360buyimg.com/babel/s160x160_jfs/t1/193342/19/21461/86480/61319e5eEecc3d8a7/9ae3cbbc0450253a.jpg!cc_160x160.webp" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <div class="content-1" style="margin-bottom: 15px;">
+                                                        荣耀50 1亿像素超清影像 5G 6.57英寸超曲屏 66W超级快充 3200万像素高清自拍 全网通版8GB+256GB 初雪水晶<br/>
+                                                    </div>
+                                                    <div class="price">
+                                                        <i>¥</i> 4999.00
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-content">
+                                                <div class="list-content-img">
+                                                    <div class="list-content-img_2"> 2</div>
+                                                    <img src="https://img13.360buyimg.com/babel/s160x160_jfs/t1/6614/34/17850/95254/614aa4cfEad892800/1e366f43025d1245.jpg!cc_160x160.webp" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <div class="content-1" style="margin-bottom: 15px;">
+                                                        华为# Mate 40E 麒麟990E 5G SoC芯片 超感知徕卡影像 68°曲面屏 8GB+128GB秘银色5G全网通手机<br/>
+                                                    </div>
+                                                    <div class="price">
+                                                        <i>¥</i> 5999.00
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-content">
+                                                <div class="list-content-img">
+                                                    <div class="list-content-img_3"> 3</div>
+                                                    <img src="https://img13.360buyimg.com/babel/s160x160_jfs/t1/199643/22/4758/111193/6125b33fEfe2ddb67/aec32dd6fa519383.jpg!cc_160x160.webp" alt="">
+                                                </div>
+                                                <div class="content">
+                                                    <div class="content-1" style="margin-bottom: 15px;">
+                                                        小米（MI）小米11青春版 8GB+128GB清凉薄荷权益版<br/>
+                                                    </div>
+                                                    <div class="price">
+                                                        <i>¥</i> 2999.00
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-content-1">
+                                                <div class="list-content-img_4"> 4</div>
+                                                <div class="content">
+                                                    <div class="content-1">
+                                                        荣耀50 1亿像素超清影像 5G 6.57英寸超曲屏 66W超级快充 3200万像素高清自拍 全网通版8GB+256GB 初雪水晶<br/>
+                                                    </div>
+                                                    <div class="price">
+                                                        <i>¥</i> 4999.00
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-content-1">
+                                                <div class="list-content-img_4"> 5</div>
+                                                <div class="content">
+                                                    <div class="content-1">
+                                                        诺基亚 NOKIA 215 4G全网通# 黑色 直板按键 双卡双待 备用功能机 老人老年手机 学生备用机<br/>
+                                                    </div>
+                                                    <div class="price">
+                                                        <i>¥</i> 4999.00
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-content-1">
+                                                <div class="list-content-img_4"> 6</div>
+                                                <div class="content">
+                                                    <div class="content-1">
+                                                        飞利浦 PHILIPS E102A 直板 移动/联通2G 陨石黑 老人机 按键功能机 学生机老人手机 老年功能手机备用机<br/>
+                                                    </div>
+                                                    <div class="price">
+                                                        <i>¥</i> 4999.00
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-content-1">
+                                                <div class="list-content-img_4"> 7</div>
+                                                <div class="content">
+                                                    <div class="content-1">
+                                                        OPPO K9 高通骁龙768G 65W超级闪充 90Hz OLED电竞屏 6400万AI三摄 8+128G幻彩之翼双模5G全网通游戏拍照手机<br/>
+                                                    </div>
+                                                    <div class="price">
+                                                        <i>¥</i> 4999.00
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list-content-1">
+                                                <div class="list-content-img_4"> 8</div>
+                                                <div class="content">
+                                                    <div class="content-1">
+                                                        realme 真我GT 大师探索版 120Hz三星AMOLED曲面屏 索尼IMX766传感器 骁龙870 晨曦 8GB+128GB 双5G手机 gt<br/>
+                                                    </div>
+                                                    <div class="price">
+                                                        <i>¥</i> 4999.00
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="hot-list" style="left: 7.5px;">
+                                <div class="h-list-1">
+                                    <div style="width: 100%;">
+                                        <div class="h-list-2 h-list-3">
+                                            <div style="text-align: left;">
+                                                <div style="margin-top: 15px;
+                                        height: 33px;
+                                        line-height: 33px;color: rgb(250, 0, 0);">
+                                                    <span style="font-size: 35px;
+                                            padding-left: 0;
+                                            display: inline-block;">技术科研咨询</span></div>
+                                            </div>
+                                            <div style="font-size: 25px;
+                                    font-weight: lighter;color: rgb(52, 54, 57);">
+                                                咨询早知道
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <div class="list-1">
+                                        <div class="tec-info">
+                                            <div class="tec-info-1">
+                                                <img src="https://img20.360buyimg.com/ceco/s720x320_jfs/t1/109423/15/9171/50552/5e70906bE8fe507c6/ed557467935bc980.jpg!cc_720x320.webp" alt="">
+                                            </div>
+                                            <div>
+                                                <div class="tec-info-2">
+                                                    K30 Pro：骁龙865+LPDDR5+UFS3.1
+                                                </div>
+                                                <div class="tec-info-3">
+                                                    这可能是5G时代的「超强性能组合」
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tec-info">
+                                            <div class="tec-info-1">
+                                                <img src="https://img14.360buyimg.com/ceco/s720x320_jfs/t1/97427/39/19610/54016/5e9ea004E5c2e6baa/162dda3cf7a5a9e4.jpg!cc_720x320.webp" alt="">
+                                            </div>
+                                            <div>
+                                                <div class="tec-info-2">
+                                                    K30 Pro：骁龙865+LPDDR5+UFS3.1
+                                                </div>
+                                                <div class="tec-info-3">
+                                                    这可能是5G时代的「超强性能组合」
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <ol class="slogen">
+                            <li class="slogen-1">
+                                <i>多</i> 品类齐全，轻松购物
+                            </li>
+                            <li class="slogen-1">
+                                <i style="background-position: 0 -43px;">快</i> 品类齐全，轻松购物
+                            </li>
+                            <li class="slogen-1">
+                                <i style="background-position: 0 -86px;">好</i> 品类齐全，轻松购物
+                            </li>
+                            <li class="slogen-1">
+                                <i style="background-position: 0 -129px;">省</i> 品类齐全，轻松购物
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="row" style="padding: 30px 0;">
+                    <div class="col-lg-12 ">
+                        <div class="footer-1" style="float: left;width: 50%;">
+                            <img src="./Image/logofooter.png" alt="">
+                            <div class="footer-1-con">
+                                <span>无所不有<br> 应有尽有<br>该有就有</span>
+                            </div>
+                        </div>
+                        <ul class="footer-2" style="float: left;width: 50%;">
+                            <li>
+                                <h1>联系我们</h1>
+                                <i class=" iconfont icon-solid-home "></i> 中国、昆明 000000
+                            </li>
+                            <li>
+                                <i class="iconfont icon-dianhua "></i> 电话 138 888 88888
+                            </li>
+                            <li>
+                                <i class="iconfont icon-fasongyoujian "></i> Email 2920556686@qq.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
